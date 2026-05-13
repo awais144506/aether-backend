@@ -1,6 +1,6 @@
 # 🌌 Project Aether: Global Monitoring Mastermind
 
-**Project Aether** is a high-performance, scalable URL monitoring system designed to handle massive amounts of real-time latency data. Built with a focus on **concurrency**, **security**, and **low-level optimization**, it serves as the persistent backbone for the **Duekoo** monitoring dashboard.
+**Project Aether** is a high-performance, scalable URL monitoring system designed to handle massive amounts of real-time latency data. Built with a focus on **concurrency**, **security**, and **low-level optimization**, it serves as the persistent backbone for the apps monitoring.
 
 ---
 
