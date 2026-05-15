@@ -15,11 +15,13 @@ public class Monitor {
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     @NotBlank(message = "URL is required")
-    @URL(message = "Please provide a valid URL (e.g., https://google.com)")
+    @URL(message = "Please provide a valid URL")
     private String url;
+    @NotBlank(message = "Region is required")
+    private String region;
     @Column(columnDefinition = "TEXT")
     private String encryptedToken;
     private String siteName;
     private LocalDateTime createdAt = LocalDateTime.now();
-    private String status="PENDING";
+    private String status = "PENDING";
 }

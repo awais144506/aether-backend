@@ -12,4 +12,5 @@ public class MonitorRequest {
     private String siteName;
     private LocalDateTime createdAt;
     private String status;
+    private String region;
 }
